@@ -1,0 +1,91 @@
+:root {
+    --wedding:#ffe7cc;
+    --navy: #002e94;
+    --blue: #083AA9;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-padding-top: 100px;
+}
+
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header { 
+   background-color: var(--navy);
+   color: var(--wedding);
+   position: fixed;
+   width: 100%;
+   top: 0;
+
+}
+
+.header-title {
+    margin-left: 1rem;
+}
+
+
+nav {
+    background-color: var(--blue);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    display: block;
+    color: var(--wedding);
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: var(--navy);
+}
+.banner-image {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.banner img {
+    width: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+
+section {
+    padding: 1rem;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #eee;
+    border: 1px solid black;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bgcolor-wedding {
+    background-color: var(--wedding);
+}
